@@ -1,6 +1,6 @@
 import express from "express";
-import { isValidUrl } from "./lib/filter.js";
-import { generateReport } from "./lib/generateReport.js";
+import { isValidUrl } from "../lib/filter.js";
+import { generateReport } from "../lib/generateReport.js";
 
 const app = express();
 
